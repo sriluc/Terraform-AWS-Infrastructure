@@ -1,5 +1,27 @@
-# Terraform state files
-*.tfstate
-*.tfstate.backup
+# Local Terraform directories
 .terraform/
-terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and diagnostics
+*.log
+*.tmp
+
+# Sensitive files
+*.env
+*.pem
+*.key
+*.secret
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
